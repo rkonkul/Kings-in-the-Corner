@@ -1,0 +1,6 @@
+#Project 1 makefile
+#Kings in the Corner
+#Ryan Konkul rkonku2
+
+Kings_in_the_Corner : Kings_in_the_Corner.cpp Cards.cpp Piles.cpp Player.cpp Round.cpp stdafx.cpp
+	g++ Kings_in_the_Corner.cpp Cards.cpp Piles.cpp Player.cpp Round.cpp stdafx.cpp -o Kings_in_the_Corner
